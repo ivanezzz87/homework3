@@ -3,7 +3,7 @@ package belhard.java28;
 public class Main {
 
     public static void main(String[] args) {
-	int monthNumber = 4;
+	int monthNumber = 5;
 	if (monthNumber == 12 || monthNumber == 1 ||monthNumber == 2) {
         System.out.println("Зима");
     } else if (monthNumber == 3 || monthNumber == 4 ||monthNumber == 5) {

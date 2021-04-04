@@ -13,5 +13,9 @@ public class Main {
     } else {
         System.out.println("Осень");
     }
+	String [] myArr = new String [] {"один", "два", "три", "четыре", "пять", "шесть", "семь", "восемь", "девять",  "десять"};
+	for (int i = myArr.length-1;i >= 0; i--) {
+            System.out.println(myArr[i]);
+        }
     }
 }

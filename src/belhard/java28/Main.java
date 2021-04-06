@@ -3,7 +3,7 @@ package belhard.java28;
 public class Main {
 
     public static void main(String[] args) {
-	int monthNumber = 5;
+	int monthNumber = 11;
 	if (monthNumber == 12 || monthNumber == 1 ||monthNumber == 2) {
         System.out.println("Зима");
     } else if (monthNumber == 3 || monthNumber == 4 ||monthNumber == 5) {
@@ -13,6 +13,20 @@ public class Main {
     } else {
         System.out.println("Осень");
     }
+	switch (monthNumber) {
+		case 1:
+		case 2:
+		case 12: System.out.println("Зима"); break;
+		case 3:
+		case 4:
+		case 5: System.out.println("Весна"); break;
+		case 6:
+		case 7:
+		case 8: System.out.println("Лето"); break;
+		case 9:
+		case 10:
+		case 11: System.out.println("Осень"); break;
+	}
 	String [] myArr = new String [] {"один", "два", "три", "четыре", "пять", "шесть", "семь", "восемь", "девять",  "десять"};
 	for (int i = myArr.length-1;i >= 0; i--) {
             System.out.println(myArr[i]);
